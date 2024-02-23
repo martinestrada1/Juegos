@@ -3,7 +3,7 @@ import './ProfileForm.css';
 
 const ProfileForm = () => {
   const [formState, setFormState] = useState({
-    idStudent: '32165461',
+    IdStudent: '32165461',
     phone: '123 456 7890',
     subjects: '',
     hobbies: 'Películas / Series',
