@@ -1,0 +1,60 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  align-items: center;
+  background-color: #ffffff;
+  color: rgb(56, 91, 47);
+}
+
+.form-content {
+  width: 82%;
+  height: 20%; /* El formulario ocupará el 100% de la altura del viewport */
+  margin: 50px auto;
+  background-color: #c0f1c7;
+  padding: 150px;
+  padding-top: 40px;
+}
+
+.form-content input[type="text"],
+.form-content input[type="email"],
+.form-content input[type="password"],
+.form-content textarea {
+  width: calc(100% - 15px); /* Reducir el ancho de los campos de entrada */
+}
+
+
+  .terms-checkbox {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .terms-checkbox > label {
+    width: 100%;
+    text-align: justify;
+  }
+  
+  .register-button{
+    width: 90%;
+    margin: auto;
+  }
+
+  .register-button-google{
+    width: 90%;
+    margin: auto;
+    border-radius: 45px;
+  }
+
+  
+  .google-logo {
+    width: 20px; /* Tamaño del logo de Google */
+    height: 20px;
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+  }
+
+  .login-link {
+    display: inline-block; /* Mostrar el enlace en la misma línea */
+  }
+  
+  
